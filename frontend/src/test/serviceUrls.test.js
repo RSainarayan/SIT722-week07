@@ -8,7 +8,7 @@ import { serviceUrls } from "../config/serviceUrls";
 
 describe("serviceUrls", () => {
   it("contains the user service URL", () => {
-    expect(serviceUrls.users).toBeFalsy();
+    expect(serviceUrls.users).toBeTruthy();
   });
 
   it("contains the student service URL", () => {
